@@ -22,6 +22,6 @@ uninspiring wakeup calls by choosing the genre of sound I would like to wake up 
 3) HTML/CSS
 	
 # Wireframe
-[](https://github.com/LlanoDev/wokeApp/blob/master/wokeAppWireframe/homeScreen.jpg)
-[](https://github.com/LlanoDev/wokeApp/blob/master/wokeAppWireframe/setTimeScreen.jpg)
-[](https://github.com/LlanoDev/wokeApp/blob/master/wokeAppWireframe/wakeUpScreen.jpg)
+![](https://github.com/LlanoDev/wokeApp/blob/master/wokeAppWireframe/homeScreen.jpg)
+![](https://github.com/LlanoDev/wokeApp/blob/master/wokeAppWireframe/setTimeScreen.jpg)
+![](https://github.com/LlanoDev/wokeApp/blob/master/wokeAppWireframe/wakeUpScreen.jpg)
