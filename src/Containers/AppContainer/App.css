@@ -1,0 +1,137 @@
+.entirepage {
+  margin: 0 auto;
+  width: 100%;
+  height: -webkit-fill-available;
+  background-color: rgba(255, 255, 255, 1);
+}
+.realtime {
+  margin: 0px 0px 40px 0px;
+  padding-top: 110px;
+  text-align: center;
+  color: rgba(0, 0, 115, 1);
+  font-family: "Share Tech Mono";
+  font-size: 25px;
+}
+.clockpage {
+  width: auto;
+  min-height: 100%;
+  height: auto;
+  background: rgba(255, 255, 255, 0);
+  color: black;
+  text-align: center;
+  display: flex;
+  margin: 0px 0px 0px 0px;
+  align-items: center;
+  justify-content: center;
+}
+#firstsection {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  background-color: rgba(250, 225, 170, 0);
+  margin-right: 05%;
+}
+.clocksection {
+  padding: 0px;
+  background-color: rgba(250, 225, 170, 0);
+  text-align: center;
+  list-style: none;
+  margin: 0px;
+  width: fit-content;
+  display: inline-block;
+}
+.colon {
+  padding: 10px 22px 10px 15px;
+  color: rgba(0, 0, 115, 1);
+  text-align: center;
+  list-style: none;
+  margin: 0px;
+  margin-top: -20px;
+  width: -webkit-fit-content;
+  font-size: 150px;
+}
+.buttons {
+  color: rgba(0, 0, 115, 0.3);
+  margin: 10px;
+  width: auto;
+  height: auto;
+  padding-bottom: 3px;
+  padding-top: 0px;
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  background-color: rgba(0, 0, 115, 0);
+  font-size: 14px;
+  font-family: "Share Tech Mono";
+  text-align: center;
+}
+.buttons:hover {
+  color: rgba(0, 0, 115, 1);
+  margin: 10px;
+  padding-bottom: 3px;
+  padding-top: 0px;
+  border-radius: 100px;
+  border: 1px solid rgba(0, 0, 115, 1);
+  background-color: rgba(0, 0, 115, 0);
+  font-size: 14px;
+  font-family: "Share Tech Mono";
+  text-align: center;
+}
+.numdisplay {
+  margin: 10px auto;
+  width: auto;
+  height: auto;
+  color: rgba(0, 0, 115, 1);
+  background-color: rgba(0, 0, 200, 0);
+  padding-top: 8px;
+  line-height: 70%;
+  vertical-align: middle;
+  font-size: 150px;
+  font-family: "Share Tech Mono";
+  font-weight: 500;
+  text-align: center;
+}
+.daydisplay {
+  margin: 5px 10px 0px 10px;
+  width: auto;
+  height: auto;
+  color: rgba(0, 0, 115, 1);
+  background-color: rgba(0, 0, 200, 0);
+  align-self: center;
+  font-size: 25px;
+  font-family: "Share Tech Mono";
+  font-weight: 100;
+  text-align: center;
+}
+ul {
+  padding: 10px;
+  text-align: center;
+  list-style: none;
+  margin: 0px;
+  margin-top: 0px;
+  width: fit-content;
+  font-size: 40px;
+  font-family: "Share Tech Mono";
+}
+.ampm {
+  margin: 0px 0px 0px 10%;
+  padding: 0px;
+  height: auto;
+  width: fit-content;
+  vertical-align: 10px;
+}
+.setAlarm {
+  margin: 40px 0px 0px 0px;
+  text-align: center;
+  width: auto;
+  color: rgba(155, 0, 0, 1);
+}
+.setbutton {
+  margin: 0px auto;
+  margin-right: 5px;
+  text-align: center;
+  width: auto;
+  color: white;
+  background-color: rgba(0, 0, 115, 1);
+  font-size: 16px;
+  font-family: "Share Tech Mono";
+}
