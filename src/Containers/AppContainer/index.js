@@ -24,8 +24,11 @@ class App extends Component {
       case 'dn-min':
           pickTime.subtract(1, 'minutes')
         break
-      case 'period':
+      case 'up-period':
           pickTime.add(12, 'hours')
+        break
+      case 'dn-period':
+          pickTime.subtract(12, 'hours')
         break
       case 'up-day':
           pickTime.add(24, 'hours')
