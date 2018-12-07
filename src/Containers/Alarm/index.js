@@ -2,22 +2,30 @@ import React from 'react'
 import moment from 'moment'
 
 const Alarm = (props) => {
-  let num = 1
+
   let hr = props.alarm.format('h')
   let min = props.alarm.format('mm')
   let day = props.alarm.format('l')
   let period = props.alarm.format('a')
-  return(
-      <div className='clockpage'>
 
+  return(
+  // new comment
+  // new comment
+  // new comment
+  // new comment
+  // new comment
+  // new comment
+  // new comment
+  // new comment
+  // new comment
+  // new comment
+      <div className='clockpage'>
 
         <div id='firstsection'>
           {moment().format('l') === day ? <button className='buttons' id='dn-dayhidden' onClick={props.handleTime}>&#8592;</button> : <button className='buttons' id='dn-day' onClick={props.handleTime}>&#8592;</button>}
           <div className='daydisplay'>{day}</div>
           <button className='buttons' id='up-day' onClick={props.handleTime}>	&#8594;</button>
         </div>
-
-
 
         <div className='entiresection'>
           <div className='clocksection'>
@@ -33,19 +41,17 @@ const Alarm = (props) => {
           </div>
         </div>
 
-
-
         <div className='perioddisplay'>
           <button className='buttons' id='up-period' onClick={props.handleTime}>&#8593;</button>
         <br/>
           <span>{period}</span>
         <br/>
+          {/* {moment().format('l') === day ? <button className='buttons' id='dn-dayhidden' onClick={props.handleTime}>&#8595;</button> : <button className='buttons' id='dn-period' onClick={props.handleTime}>&#8595;</button>} */}
           <button className='buttons' id='dn-period' onClick={props.handleTime}>&#8595;</button>
         </div>
 
-
-
       </div>
+
   )
 }
 

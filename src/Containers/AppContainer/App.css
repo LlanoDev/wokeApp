@@ -2,20 +2,20 @@
   margin: 0 auto;
   width: 100%;
   height: -webkit-fill-available;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 1);
 }
 .perioddisplay {
   font-family: "Share Tech Mono";
   font-size: 100px;
   background: rgba(255, 255, 255, 0);
-  color: rgba(0, 0, 115, 1);
+  color: rgba(20, 115, 115, 1);
   margin-right: 10%;
 }
 .realtime {
-  margin: 0px 0px 40px 0px;
+  margin: 0px 0px 20px 0px;
   padding-top: 110px;
   text-align: center;
-  color: rgba(0, 0, 115, 1);
+  color: rgba(20, 115, 115, 1);
   font-family: "Share Tech Mono";
   font-size: 25px;
 }
@@ -53,7 +53,7 @@
 }
 .colon {
   padding: 10px 22px 10px 15px;
-  color: rgba(0, 0, 115, 1);
+  color: rgba(20, 115, 115, 1);
   text-align: center;
   list-style: none;
   margin: 0px;
@@ -62,27 +62,27 @@
   font-size: 150px;
 }
 .buttons {
-  color: rgba(0, 0, 115, 0.3);
+  color: rgba(20, 115, 115, 1);
   margin: 10px;
   width: auto;
   height: auto;
   padding-bottom: 3px;
   padding-top: 0px;
-  border-radius: 100px;
-  border: 1px solid rgba(255, 255, 255, 0);
-  background-color: rgba(0, 0, 115, 0);
+  border-radius: 200px;
+  border: 1px solid rgba(20, 115, 115, 1);
+  background-color: rgba(0, 0, 0, 1);
   font-size: 14px;
   font-family: "Share Tech Mono";
   text-align: center;
 }
 .buttons:hover {
-  color: rgba(0, 0, 115, 1);
+  color: rgba(255, 255, 255, 1);
   margin: 10px;
   padding-bottom: 3px;
   padding-top: 0px;
-  border-radius: 100px;
-  border: 1px solid rgba(0, 0, 115, 1);
-  background-color: rgba(0, 0, 115, 0);
+  border-radius: 200px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0);
   font-size: 14px;
   font-family: "Share Tech Mono";
   text-align: center;
@@ -91,7 +91,21 @@
   margin: 10px auto;
   width: auto;
   height: auto;
-  color: rgba(0, 0, 115, 1);
+  color: rgba(20, 115, 115, 1);
+  background-color: rgba(0, 0, 200, 0);
+  padding-top: 8px;
+  line-height: 70%;
+  vertical-align: middle;
+  font-size: 150px;
+  font-family: "Share Tech Mono";
+  font-weight: 500;
+  text-align: center;
+}
+#in-red {
+  margin: 10px auto;
+  width: auto;
+  height: auto;
+  color: rgba(255, 0, 0, 1);
   background-color: rgba(0, 0, 200, 0);
   padding-top: 8px;
   line-height: 70%;
@@ -112,7 +126,7 @@
   margin: 5px 10px 0px 10px;
   width: 175px;
   height: auto;
-  color: rgba(0, 0, 115, 1);
+  color: rgba(20, 115, 115, 1);
   background-color: rgba(0, 0, 200, 0);
   align-self: center;
   font-size: 25px;
@@ -149,7 +163,7 @@ ul {
   text-align: center;
   width: auto;
   color: white;
-  background-color: rgba(0, 0, 115, 1);
+  background-color: rgba(20, 115, 115, 1);
   font-size: 16px;
   font-family: "Share Tech Mono";
 }
