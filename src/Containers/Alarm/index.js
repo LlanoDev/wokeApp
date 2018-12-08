@@ -9,16 +9,6 @@ const Alarm = (props) => {
   let period = props.alarm.format('a')
 
   return(
-  // new comment
-  // new comment
-  // new comment
-  // new comment
-  // new comment
-  // new comment
-  // new comment
-  // new comment
-  // new comment
-  // new comment
       <div className='clockpage'>
 
         <div id='firstsection'>

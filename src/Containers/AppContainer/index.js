@@ -8,16 +8,6 @@ class App extends Component {
     pickTime: moment('1230', 'h:mm a'),
     time: ''
   }
-  // new comment
-  // new comment
-  // new comment
-  // new comment
-  // new comment
-  // new comment
-  // new comment
-  // new comment
-  // new comment
-  // new comment
   changeTime = (e) => {
     let pickTime = this.state.pickTime
     switch (e.target.id) {
