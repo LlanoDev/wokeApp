@@ -5,7 +5,8 @@ import moment from 'moment'
 
 class App extends Component {
   state = {
-    pickTime: moment('1230', 'h:mm a'),
+    // pickTime: moment('1230', 'h:mm a'),
+    pickTime: moment(),
     time: ''
   }
   changeTime = (e) => {
@@ -49,7 +50,7 @@ class App extends Component {
     setInterval(()=>{this.showTime()}, 1)
     return (
       <div className="entirepage">
-        <div className="realtime">{this.state.time}</div>
+        <div className="realtime">Current Time<br/>{this.state.time}</div>
         <Alarm alarm={this.state.pickTime} time={this.state.time} handleTime={this.changeTime}/>
         <div className="setAlarm">
           <button className='setbutton' type='button' onClick={this.alarmSet}>SET ALARM</button>

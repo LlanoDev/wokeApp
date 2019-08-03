@@ -14,7 +14,7 @@ const Alarm = (props) => {
         <div id='firstsection'>
           {moment().format('l') === day ? <button className='buttons' id='dn-dayhidden' onClick={props.handleTime}>&#8592;</button> : <button className='buttons' id='dn-day' onClick={props.handleTime}>&#8592;</button>}
           <div className='daydisplay'>{day}</div>
-          <button className='buttons' id='up-day' onClick={props.handleTime}>	&#8594;</button>
+          <button className='buttons' id='up-day' onClick={props.handleTime}>&#8594;</button>
         </div>
 
         <div className='entiresection'>
